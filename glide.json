@@ -1,0 +1,15 @@
+{
+  "name": "Convert a date to an ISO formated string",
+  "description": "",
+  "author": "Darren Murphy <darren@victoriajd.com>",
+  "params": [
+    {
+      "name": "datestring",
+      "displayName": "Glide date/time column",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
