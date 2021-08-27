@@ -4,7 +4,7 @@ window.function = function (datestring) {
   
   var date = new Date(datestring.value);
   try {
-    var iso_string = date.toISOString().replace(/-/g,"");
+    var iso_string = date.toISOString().replace(/-/g,"").replace(/\.*$/g,"");
     return iso_string;
   }
   catch (err) {
